@@ -619,12 +619,12 @@
     canvas.height = 180;
 
     const gameCoords = {
-        snake: { x: 1689.35, y: -2661.72, text: "Le trésor se trouve ici :" },
-        maze: { x: 3451.7, y: 5511.64, text: "L'outil est ici :" },
-        brick: { x: 24.33, y: 7643.46, text: "La clé est ici :" }
+        snake: { x: 1871.79, y: 6415.58, text: "Vous etes vraiment super stupide bon tenez :" },
+        maze: { x: 2301.43, y: 180.83, text: "Pour le meilleur et pour le pire arretez vous :" },
+        brick: { x: 485.78, y: 5617.09, text: "Vous avez 3secondes :" }
     };
 
-    setTimeout(() => { bootComplete = true; }, 3500);
+    setTimeout(() => { bootComplete = true; }, 4500);
 
     // SNAKE HUNT
     let snake, food, direction, nextDirection, snakeScore;
@@ -632,7 +632,7 @@
     function initSnake() {
         snake = [{ x: 9, y: 9 }];
         food = { x: 15, y: 15 };
-        direction = { x: 1, y: 0 };
+        direction = { x: 2, y: 0 };
         nextDirection = { x: 1, y: 0 };
         snakeScore = 0;
         gameRunning = true;
